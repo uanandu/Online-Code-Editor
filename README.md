@@ -2,7 +2,8 @@
 Online code editor to practice HTML, CSS and JS.
 
 Working model💻:
-![Screen Shot 2022-07-17 at 1 40 02 PM](https://user-images.githubusercontent.com/105119755/179418367-343c7606-1870-4fbf-b561-f5daf7233746.png)
+
+![Screen Shot 2022-07-17 at 1 50 18 PM](https://user-images.githubusercontent.com/105119755/179418380-0208e308-9e9f-49c0-bf98-309412cfa665.png)
 
 
 
