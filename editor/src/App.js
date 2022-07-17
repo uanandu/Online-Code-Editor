@@ -13,8 +13,6 @@ function App() {
   const [css, setCss] = useState("");
   const [js, setJs] = useState("");
   const [srcDoc, setSrcDoc] = useState("");
-
-
   
   useEffect(() => {
     const timeOut = setTimeout(() => {
@@ -54,7 +52,7 @@ function App() {
   return (
     <div>
       <AppContainer>
-      <Title>Code Editor</Title>
+      <Title>Code Editor 🦾</Title>
         <EditorWrapper>
           <Editor
             displayName="HTML"
@@ -80,7 +78,6 @@ const AppContainer = styled.div`
   flex-basis: 0;
   width: 100%;
   height: 100vh;
-  background-color: black;
 `;
 
 const EditorWrapper = styled.div`
@@ -93,7 +90,7 @@ const EditorWrapper = styled.div`
 `;
 
 const Title = styled.h1`
-  color: white;
+  margin-left: 20px;
 `;
 
 export default App;

@@ -31,7 +31,7 @@ export const Editor = (props) => {
     >
       <TitleArea>
         <Title>{displayName}</Title>
-        <button onClick={(e) => hancleClick(e)}>icon</button>
+        <button style={{borderRadius: "10px", width: "100px", fontWeight: "700"}} onClick={(e) => hancleClick(e)}>Collapse 🤛🏽</button>
       </TitleArea>
       <InputTextArea
         onChange={(e) => {
